@@ -11,4 +11,4 @@ I would like to see this implemented into a physical computing/tangible interfac
 
 
 
-Thank you Joaquin Pheonix.
+Thank you, Joaquin Pheonix.
