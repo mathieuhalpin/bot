@@ -1,7 +1,16 @@
+import json
+
+f = open("corpus.json")
+corpus = json.load(f)
+for i in corpus[0]["dialog"]:
+    print(i)
+f.close()
+
+
+
 import random
 ngram = {}
-corpus = "The quick brown fox jumped over the lazy dog."
-corpus.lower().replace('"','').replace("'",'').replace('\n','').replace(')','').replace('(','').replace('[','').replace(']','').replace('’','').replace("“",'').replace("”",'')
+corpus = corpus.lower().replace('"','').replace("'",'').replace('\n','').replace(')','').replace('(','').replace('[','').replace(']','').replace('’','').replace("“",'').replace("”",'')
      
 for sentence in corpus.split('.'):
     for i in range(1, len(sentence.split(' '))):
