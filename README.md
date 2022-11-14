@@ -1,3 +1,3 @@
-# NLP Bot
+# Bot
 
 Dedicated to Joaquin Phoenix.
